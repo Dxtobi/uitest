@@ -1,0 +1,35 @@
+
+
+.flex.flex-col.gap-6.w-full.justify-center.items-center {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+section#sec {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color:black ;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex.gap-3.justify-center.anim-text-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+p.text-white.cliptext.text-\[30px\].md\:text-\[50px\] {
+    color: white;
+    font-size: 30px;
+}
+
+@media (min-width: 768px) {
+    p.text-white.cliptext.text-\[30px\].md\:text-\[50px\] {
+        font-size: 50px;
+    }
+}

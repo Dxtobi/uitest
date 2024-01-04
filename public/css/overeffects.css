@@ -1,0 +1,74 @@
+
+
+.text-hover-effect{
+   transition: 0.5s ease-in-out;
+   animation: text__ 5s ease-out infinite;
+   -webkit-animation: text__ 5s ease-out infinite;
+}
+
+.hover-effect-obj {
+    background: hsla(271, 76%, 53%, 0.412);
+    transition: 0.5s ease-in-out;
+    animation: back 5s ease-out infinite;
+    -webkit-animation: back__ 5s ease-out infinite;
+}
+
+
+.scroll-btn {
+    width: 50%;
+}
+
+#prev{
+    border-radius: 20px 5px 5px 20px;
+    -webkit-border-radius: 20px 5px 5px 20px;
+    -moz-border-radius: 20px 5px 5px 20px;
+    -ms-border-radius: 20px 5px 5px 20px;
+    -o-border-radius: 20px 5px 5px 20px;
+}
+
+#next-slide {
+    border-radius: 5px 20px 20px 5px;
+    -webkit-border-radius: 5px 20px 20px 5px;
+    -moz-border-radius: 5px 20px 20px 5px;
+    -ms-border-radius: 5px 20px 20px 5px;
+    -o-border-radius: 5px 20px 20px 5px;
+}
+
+@keyframes text__ {
+    10% {
+        color: rgba(225, 0, 255, 0.618);
+        
+    }
+
+   50% {
+        color: rgba(0, 145, 255, 0.691);
+        
+    }
+
+    
+
+    100% {
+        color: rgba(0, 255, 76, 0.496);
+        
+    }
+}
+
+@keyframes back__ {
+    10% {
+        background: rgba(225, 0, 255, 0.618);
+        
+    }
+
+   50% {
+    background: rgba(0, 145, 255, 0.691);
+        
+    }
+
+    
+
+    100% {
+        background: rgba(0, 255, 76, 0.496);
+        
+    }
+}
+
