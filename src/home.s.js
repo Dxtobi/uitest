@@ -20,7 +20,7 @@ export const Home = `
       star :😊
     </p>
     <div class='nav-btn'>
-      <a href='' class="nav-a">github </a>
+      <a href='https://github.com/Dxtobi/uitest'  target="_blank" class="nav-a">github </a>
       <button id="nav-btn-1" class="nav-a">next page </button>
     </div>
   </div>
@@ -41,6 +41,7 @@ export const Home = `
       <button id='prev' class="scroll-btn hover-effect">&larr;</button>
       <button id='next-slide' class="scroll-btn hover-effect">&rarr;</button>
     </div>
+    
     <div class="slide">
       <div class="item" style="background-image: url(./users/me0.jpg);">
         <div class="content">

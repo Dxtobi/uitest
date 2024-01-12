@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "templates",
+			"path": ".."
+		},
+		{
+			"name": "users",
+			"path": "../../../../../Pictures/Camera Roll/users"
+		}
+	],
+	"settings": {}
+}
